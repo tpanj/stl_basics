@@ -1,0 +1,19 @@
+# Ide files, Visual Studio 2015 cache/options and build directory 
+.vs
+.vscode
+build
+
+# Executables
+stl_*.exe
+stl_*
+
+# cmake in current dir
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
