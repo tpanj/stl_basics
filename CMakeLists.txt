@@ -1,1 +1,2 @@
-add_executable(stl_big_vec big_vector.cc)
+add_executable(vector_stl  vector.cc)
+add_executable(vec_big_stl big_vector.cc)
