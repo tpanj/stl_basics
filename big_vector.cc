@@ -8,7 +8,10 @@ int main() {
 	vector<int> v1;
 	v1.reserve(N); // speed up
 	for (i = 0; i < N; ++i)
-		v1.push_back(i);
+		v1.push_back(i); // add elements
+
+	// for (auto &n : v1)
+	// 	printf("%d ", n); // print inline
 
 	cout << v1.size() << endl;
 	cout << v1.back() << endl;
